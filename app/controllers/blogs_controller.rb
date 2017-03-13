@@ -50,6 +50,6 @@ class BlogsController < ApplicationController
     end
 
     def blog_params
-      params.require(:blog).permit(:title, :body)
+      params.require(:portfolio_item).permit(:title, :body)
     end
 end
