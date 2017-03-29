@@ -43,6 +43,5 @@ end
     body: "Selvage salvia tattooed forage YOLO lomo pour-over, craft beer squid copper mug 8-bit. Brooklyn organic kombucha occupy, hashtag fanny pack williamsburg cold-pressed normcore meditation polaroid. Offal pop-up locavore, blog you probably haven't heard of them four dollar toast post-ironic tote bag selfies kinfolk whatever artisan farm-to-table. Whatever wayfarers butcher organic, quinoa narwhal single-origin coffee af biodiesel unicorn taxidermy.",
     main_image: "http://placehold.it/600x400",
     thumb_image: "http://placehold.it/350x200"
-
     )
 end
