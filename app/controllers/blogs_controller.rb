@@ -60,6 +60,6 @@ class BlogsController < ApplicationController
     end
 
     def blog_params
-      params.require(:portfolio_item).permit(:title, :body, :toggle_status, :main_image, :thumb_image)
+      params.require(:blog)
     end
 end
