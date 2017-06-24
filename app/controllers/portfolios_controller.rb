@@ -58,7 +58,7 @@ class PortfoliosController < ApplicationController
       @portfolio_item = Portfolio.find(params[:id])
     end
 
-    def portfolio_item_params   
+    def portfolio_item_params    # all code from .permit can be eliminated and whitelist will still occur  
         params.require(:portfolio).permit(:title, 
                                           :subtitle, 
                                           :body, 
