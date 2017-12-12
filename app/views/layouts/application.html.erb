@@ -14,19 +14,23 @@
 
   <body>
 
-    <p class="notice"><%= notice %></p>
-    <p class="alert"><%= alert %></p>
+    <div class="site-wrapper">
+      <div class="site-wrapper-inner">
+        <div class="cover-container">
+        
+          <%= render "shared/application_nav" %>
 
-    <%= render "shared/nav", location: 'top' %>
+          <%= login_helper %>
 
-    <%= login_helper %>
+          <%= link_to "Home", root_path unless root_path %>
+          <br>
 
-    <%= link_to "Home", root_path unless root_path %>
-    <br>
-
-    <%= yield %>
+          <%= yield %>
   
-    <%= source_helper %>
+          <%= source_helper %>
+        </div>
+      </div>
+    </div>    
   </body>
 </html>
 
