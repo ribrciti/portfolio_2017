@@ -13,21 +13,15 @@
   </head>
 
   <body>
-
     <div class="site-wrapper">
       <div class="site-wrapper-inner">
         <div class="cover-container">
-        
+
           <%= render "shared/application_nav" %>
+         
+          <%= yield %> 
 
-          <%= login_helper %>
-
-          <%= link_to "Home", root_path unless root_path %>
-          <br>
-
-          <%= yield %>
-  
-          <%= source_helper %>
+          <%= render "shared/application_footer" %>               
         </div>
       </div>
     </div>    
